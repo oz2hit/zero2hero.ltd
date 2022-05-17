@@ -1,7 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Container, Heading, Text, Image, Button } from "theme-ui";
-import backgroundImage from "assets/images/backgroundImage.jpg";
+import backgroundImageJpg from "assets/images/backgroundImage.jpg";
+import backgroundImagePng from "assets/images/backgroundImage.png";
 import circle from "assets/images/buttonCircle.png";
 
 const Banner = () => {
@@ -38,7 +39,7 @@ export default Banner;
 
 const styles = {
   section: {
-    background: `url(${backgroundImage}) no-repeat center bottom / cover`,
+    background: `url(${backgroundImagePng}) no-repeat center bottom / cover`,
   },
   contentWrapper: {
     display: ["block", null, null, null, "grid", "flex"],

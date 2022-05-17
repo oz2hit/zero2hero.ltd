@@ -52,8 +52,11 @@ const styles = {
     },
     ".is-sticky": {
       header: {
-        color: "black",
-        backgroundColor: "white",
+        color: "white",
+        /*color: "black",*/
+        background:
+        "linear-gradient(90deg,#133370 26.23%,#29245e 44.79%,#4e1f6f 71.57%)",
+        /*backgroundColor: "white",*/
         boxShadow: "0 6px 13px rgba(38,78,118,0.1)",
         py: 13,
       },

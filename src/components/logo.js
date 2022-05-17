@@ -8,6 +8,8 @@ import logoBlack from "assets/images/logoBlack.png";
 
 export default function Logo({ isSticky, footer, ...props }) {
   
+  //<Image src={offset > 0 ? logoBlack : logoWhite} alt="zero2hero" />
+
   const [offset, setOffset] = useState(0);
 
   useEffect(() => {
@@ -20,7 +22,7 @@ export default function Logo({ isSticky, footer, ...props }) {
 
   return (
     <Link path="/" sx={styles.logo} {...props}>
-      <Image src={offset > 0 ? logoBlack : logoWhite} alt="zero2hero" />
+      <Image src={logoWhite} alt="zero2hero" />
     </Link>
   );
 }
